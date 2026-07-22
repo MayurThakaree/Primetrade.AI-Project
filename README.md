@@ -1,23 +1,19 @@
-# Trader Performance vs Market Sentiment (Hyperliquid × Fear/Greed Index)
-
-Round-0 assignment for the Primetrade.ai Data Science/Analytics Intern role.
-
-## What's here
+About Project
 
 ```
 .
-├── data_raw/                        # input CSVs (already included, self-contained)
+├── data_raw/                        #
 │   ├── fear_greed_index.csv
 │   └── historical_data.csv
-├── data/                            # generated intermediate tables (created by scripts)
-├── charts/                          # generated PNG charts (created by scripts)
-├── output/                          # generated text reports (created by scripts)
+├── data/                            
+├── charts/                         
+├── output/                          
 ├── notebooks/
-│   ├── trader_sentiment_analysis.ipynb   # MAIN DELIVERABLE — full analysis, pre-run with outputs
-│   ├── 01_data_prep.py              # Part A as a plain script (same logic as notebook)
-│   ├── 02_analysis.py                # Part B as a plain script
-│   └── 03_clustering_bonus.py         # Bonus clustering as a plain script
-├── WRITEUP.md                        # 1-page methodology / insights / strategy summary
+│   ├── trader_sentiment_analysis.ipynb  
+│   ├── 01_data_prep.py              
+│   ├── 02_analysis.py                
+│   └── 03_clustering_bonus.py        
+├── WRITEUP.md                        
 └── README.md
 ```
 
